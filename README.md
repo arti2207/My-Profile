@@ -9,4 +9,4 @@ a. <b>Education Page</b>: In this page i have education Qualification<br>
 b. <b>Experience Page</b> : In this page i have my professionla Experience<br>
 c. <b> Feedback Page</b> : In this page i created a Form which contain student information with feedback by using  
        <pre>Radio Button, Text, Passoword, Checkbox, Dropdowm, Feedback and submit button.</pre> 
-d.<b>Extra Page</b> : In this page i created how to use <iframe> tag and Video tag.
+d.<b>Extra Page</b> : In this page i created how to use <iframe> tag and <Video> tag.
