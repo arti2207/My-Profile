@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback <Form></Form></title>
+</head>
+<body>
+    <h2> Feedback form with user data</h2>
+    <hr>
+    <form action="/action.php">
+        <h4> User Information</h4>
+        <pre>User Name : <input type="text" placeholder="Enter Your Name"></pre>
+        <pre>Password  : <input type="password" placeholder="Enter Password"></pre>
+        <br>
+        <h4> Select Your Class</h4>
+
+        <label for="101">
+            <input type="radio" value="class 11" name="class" id="101">class 11
+        </label><br>
+        <label for="102">
+            <input type="radio" value="class 12" name="class" id="102">class 12
+
+        </label>
+        <br><br>
+        <h4> Select Your Subjects</h4>
+        <label for="math">
+            <input type="checkbox" value="Math" nmae="Subjects" id="1">Math
+        </label><br>
+        <label for="Science">
+            <input type="checkbox" value="Science" id="2">Science
+        </label><br>
+        <label for="Bio">
+            <input type="checkbox" value="Bio" id="3">Bio
+        </label><br>
+        <label for="Computer">
+            <input type="checkbox" value="Computer" id="4">Computer
+        </label><br><br>
+        Select your City  <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Agra">Agra</option>
+        </select>
+        <br><br>
+        <textarea name="Feedback" id="102" placeholder="Please give your feedback" rows="6" cols="40">
+        </textarea><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
